@@ -1,0 +1,22 @@
+[book]
+authors = ["Vladislav Illarionov"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Случайные процессы"
+
+[output.html.search]
+language-code = "ru"
+copy-js = true
+
+[output.html]
+additional-css = ["theme/css/custom.css", "theme/css/mdbook-admonish.css"]
+
+[output.katex]
+
+[preprocessor.katex]
+macros = "katex-macro.txt"
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "2.0.0" # do not edit: managed by `mdbook-admonish install`
