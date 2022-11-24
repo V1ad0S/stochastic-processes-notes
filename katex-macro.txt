@@ -1,5 +1,7 @@
 \R:{\mathbb{R}^{#1}}
 \E:{\mathbb{E}[#1]}
+\I:{\mathbb{I}_{#1}}
 \Br:{\mathcal{B}(\mathbb{R})}
 \F:{\mathcal{F}}
+\A:{\mathcal{A}}
 \PS:{\langle \Omega, \mathcal{F}, P \rangle}
